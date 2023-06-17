@@ -1,2 +1,2 @@
 # mesaOS
-A OS related project
+A series of OS related projects.
