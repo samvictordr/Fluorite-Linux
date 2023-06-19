@@ -14,4 +14,4 @@ Flashing to a USB drive using dd:
 ```
 dd if=/path/to/bootimage-mesakernel.bin of=/dev/sdx && sync
 ```
-Where sdx is the drive name of your USB. Double check your drive before flashing it, dd is infamous for doing unwanted things.
+Where sdx is the drive name of your USB. Double check your drive before flashing it, dd is infamous for doing undesirable things.
