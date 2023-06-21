@@ -1,7 +1,7 @@
 # Welcome to The Mesa Playground!
 This repo consists mostly of random OSdev projects (A OSdev playground, if you will)
 
-## mesakernel - wip 
+## mesakernel 
 A minimal kernel made using rust, with the help of [blog_os](https://os.phil-opp.com/) - 
 If you want to run the bootable image, download the .bin file at 'mesakernel/x86_64-generic/bootimage-mesakernel.bin'. Make sure you have QEMU installed or a USB flash drive to make a bootable USB.
 
