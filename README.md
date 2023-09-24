@@ -1,5 +1,5 @@
 # Welcome to The Mesa Playground!
-This repo consists mostly of random OSdev projects (A OSdev playground, if you will)
+This repo consists mostly of random OSdev projects (An OSdev playground, if you will)
 
 ## mesakernel 
 A minimal kernel made using rust, with the help of [blog_os](https://os.phil-opp.com/) - 
