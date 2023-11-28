@@ -1,5 +1,5 @@
 # MesaOS
-A small arch-based linux distro project for college.
+A minimal arch-based linux distro project for college.
 
 ### mesakernel 
 Not inlcuded in MesaOS. This is a seperate project to understand kernel architecture.
