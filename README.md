@@ -1,4 +1,4 @@
-# MesaOS
+# Mesa Linux
 A minimal arch-based linux distro project for college.
 
 ### mesakernel 
