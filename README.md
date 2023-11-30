@@ -1,5 +1,5 @@
 # Mesa Linux
-A minimal arch-based linux distro project for college.
+A minimal arch-based linux distro project with GNOME built in (along with a few other packages) for college. 
 
 ### mesakernel 
 Not inlcuded in MesaOS. This is a seperate project to understand kernel architecture.
