@@ -1,99 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MesaOS</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">MesaOS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#features">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#download">Download</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!-- Hero Section -->
-<section class="hero-section text-center">
-  <div class="container">
-    <h1>Welcome to MesaOS</h1>
-    <p>A minimalistic and powerful Linux distribution</p>
-    <a href="#download" class="btn btn-primary">Download Now</a>
-  </div>
-</section>
-
-<!-- Features Section -->
-<section id="features" class="features-section text-center">
-  <div class="container">
-    <h2>Features</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Lightweight</h3>
-        <p>Optimized for performance and resource efficiency.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MesaOS</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="p-1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MesaOS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      <div class="col-md-4">
-        <h3>User-Friendly</h3>
-        <p>Intuitive interface for both beginners and advanced users.</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Customizable</h3>
-        <p>Adaptable to suit various user preferences.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </nav>
 
-<!-- Download Section -->
-<section id="download" class="download-section text-center">
-  <div class="container">
-    <h2>Download MesaOS</h2>
-    <p>Get MesaOS and experience a new level of computing.</p>
-    <a href="#" class="btn btn-primary">Download Now</a>
-  </div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+      <div class="container">
+        <h1>Welcome to MesaOS</h1>
+        <p>A minimalistic and powerful Linux distribution</p>
+        <a href="#download" class="btn btn-primary">Download Now</a>
+      </div>
+    </section>
 
-<!-- Contact Section -->
-<section id="contact" class="contact-section text-center">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p>Have questions? Reach out to us!</p>
-    <form>
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Your Name">
+    <!-- Slider Section -->
+    <section class="slider-section section" id="features">
+      <h2 class="slider__feature">Features</h2>
+      <div class="slider">
+        <div class="slide">
+          <div class="slide__content">
+            <h3>Lightweight</h3>
+            <p>Optimised for performance and resource efficiency</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide__content">
+            <h3>User-Friendly</h3>
+            <p>Intuitive interface for both beginners and advanced users.</p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide__content">
+            <h3>Customizable</h3>
+            <p>Adaptable to suit various user preferences.</p>
+          </div>
+        </div>
+        <img
+          src="image-b/left-arrow.png"
+          class="slider__btn slider__btn--left"
+          alt="left arrow"
+        />
+        <img
+          src="image-b/right-arrow.png"
+          class="slider__btn slider__btn--right"
+          alt="right arrow"
+        />
+        <ul class="dots">
+          <li class="dots__dot" data-slide="0"></li>
+          <li class="dots__dot" data-slide="1"></li>
+          <li class="dots__dot" data-slide="2"></li>
+        </ul>
       </div>
-      <div class="form-group">
-        <input type="email" class="form-control" placeholder="Your Email">
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
-  </div>
-</section>
+    </section>
 
-<!-- Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!-- Download Section -->
+    <section id="download" class="download-section text-center section">
+      <div class="container">
+        <h2>Download MesaOS</h2>
+        <p>Get MesaOS and experience a new level of computing.</p>
+        <a href="#" class="btn btn-primary">Download Now</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>
