@@ -1,8 +1,8 @@
-# Mesa Linux
-A minimal arch-based linux distro project with GNOME built in (along with a few other packages) for college. Currently under development.
+# Sakura Linux
+A minimal arch-based linux distro project with GNOME built in (along with a few other goodies) for college. Currently under development.
 
 ### mesakernel 
-Not inlcuded in MesaOS. This is a seperate project to understand kernel architecture.
+Not inlcuded in this project, will be shifted elsewhere soon. This is a seperate project to understand kernel architecture.
 A minimal kernel made using rust, with the help of [blog_os](https://os.phil-opp.com/) - 
 If you want to run the bootable image, download the .bin file at 'mesakernel/x86_64-generic/bootimage-mesakernel.bin'. Make sure you have QEMU installed or a USB flash drive to make a bootable USB.
 
