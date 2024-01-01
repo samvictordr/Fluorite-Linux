@@ -1,5 +1,5 @@
-# Sakura Linux
-A minimal arch-based linux distro project with GNOME built in (along with a few other goodies) for college. Currently under development.
+# Fluorite Linux (VivyOS)
+A minimal arch-based linux distro/tribute project to the anime 2021 "Vivy: Fluorite Eye's Song" with GNOME built in (along with a few other goodies) for college. Currently under development.
 
 ### mesakernel 
 Not inlcuded in this project, will be shifted elsewhere soon. This is a seperate project to understand kernel architecture.
