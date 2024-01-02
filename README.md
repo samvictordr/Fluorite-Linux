@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="vivy-readme.gif" alt="Image Description">
+</p>
+
 # Fluorite Linux (VivyOS)
 A minimal arch-based linux distro/tribute project to the anime 2021 "Vivy: Fluorite Eye's Song" with GNOME built in (along with a few other goodies) for college. Currently under development.
 
