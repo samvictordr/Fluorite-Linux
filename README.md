@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="vivy-readme.gif" alt="Image Description">
+  <img src="assets-readme/vivy-readme.gif" alt="Image Description">
 </p>
 
 # Fluorite Linux (VivyOS)
