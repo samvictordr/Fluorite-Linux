@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets-readme/enterprise-confused.gif" width="200" height="200">
+</p>
+
 # Fluorite Linux
 A minimal arch-based, anime themed linux distro with GNOME built in (along with a few other goodies) for college. Currently under development.
 
