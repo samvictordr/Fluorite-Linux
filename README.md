@@ -8,7 +8,7 @@
 > Testing 1,2 builds are affected by the recent xz-utils backdoor, test them in a controlled environment. Later builds will NOT be using xz-utils 5.6.0
 
 # Fluorite Linux
-A minimal arch-based, anime themed linux distro with GNOME built in (along with a few other goodies) for college. Currently under development.
+A minimal arch-based, anime themed linux distro with GNOME built in (along with a few other goodies) for college. It is Currently under development.
 
 ### How it's built:
 Flourite is built using Archiso, you can find the config at releng in the main branch.
